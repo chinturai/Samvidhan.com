@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samvidhan-Login</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body style="margin-top: 50px;">
+    <div class="logo">
+        <h1 class="logotxt">Samvidhan</h1>
+        
+        <h2 class="logotxt">Your one Stop destination for Simplified Learning of Indian Constitution</h2>
+    </div>
+    <div class="container" id="main">
+        <div class="sign-up">
+            <form action="#">
+                <h1>Create Account</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <p>Or use your email for registration</p>
+                <input type="text" name="txt" id="" placeholder="Name" required="">
+                <input type="email" name="email" id="" placeholder="E-mail" required="">
+                <input type="password" name="pswd" id="" placeholder="Password" required="">
+                <button> <a href="landingPage.html" class="btn1">Sign-Up</a></button>
+            </form>
+        </div>
+
+        <div class="sign-in">
+            <form action="#">
+                <h1>Sign In</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <p>Or use your Samvidhan Account</p>
+                <input type="email" name="email" id="" placeholder="User name" required="">
+                <input type="password" name="pswd" id="" placeholder="Password" required="">
+                <button><a href="landingPage.html" class="btn1">Sign-in</a></button>
+            </form>
+        </div>
+
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-left">
+                    <h1>Welcome to Samvidhan.com </h1>
+                    <p> An Interactive Learning platform for Indian Constitution</p>
+                    <p>Already have an ID? Sign in here </p>
+                    <button id="signIn">Sign in</button>
+                </div>
+
+                <div class="overlay-right">
+                    <h1>Samvidhan.com</h1>
+                    <br>
+                    <h1>Welcome back!</h1>
+                    <p>Login to continue your learning and level up !!</p>
+                    <p>Dont have an ID ? Sign Up Now </p>
+                    <button id="signUp">Sign-Up</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

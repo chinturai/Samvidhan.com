@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samvidhan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo">Samvidhan</div>
+            <ul>
+                <li class="nav-li"><a href="#">Home</a></li>
+                <li class="nav-li"><a href="landingPage.html">Learn</a></li>
+                <li class="nav-li"><a href="login.html">Community</a></li>
+                <button><a href="login.html">Login</a></button>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container">
+
+        <div class="wrapper">
+            <div class="static-txt">Learning <br> Constitution </div>
+            <ul class="dynamic-txts">
+                <li><span>Made Easy</span></li>
+                <li><span>Interactive Modules</span></li>
+                <li><span>Games</span></li>
+                <li><span>Quizzes</span></li>
+                <li><span>Samvidhan.com</span></li>
+            </ul>
+        </div>
+
+        <div class="image-container">
+            <img src="assets/law.png" class="lawimg">
+        </div>
+
+
+    </div>
+
+    <!-- chat bot starts -->
+    <!-- Chatbot Icon -->
+    <div class="chatbot-container">
+        <div class="chatbot-icon" id="chatbotIcon">
+            <img src="assets/samvidhanbot.png" alt="Chatbot">
+        </div>
+        <div>
+            Samvidhan Bot
+        </div>
+        <!-- Dummy Chat Interface -->
+        <div class="chatbox" id="chatbox">
+            <div class="chatbox-header">
+                <h4>AI Chatbot</h4>
+                <span class="close-btn" id="closeBtn">&times;</span>
+            </div>
+            <div class="chatbox-body">
+                <p><strong>Bot:</strong> Hello! How can I assist you?</p>
+                <p><strong>You:</strong> When will Samvidhan Bot be available?</p>
+                <p><strong>You:</strong> Samvidhan Bot will be <strong>implemented soon</strong> to help learners in solving their doubts and queries </p>
+            </div>
+            <div class="chatbox-footer">
+                <input type="text" placeholder="Type a message...">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- chatbot ends -->
+
+    <span class="learnmore">
+        <button class="btn-lnmr"><a href="landingPage.html"> Start your learning journey now </a></button>
+    </span>
+
+    <div class="timeline">
+        <h1 class="tl-h1">Our Features</h1>
+        <div class="container-tl left-tl">
+            <div class="txtbox-tl">
+                <img src="assets/interactive.png" class="tl-img">
+                <h2>Interactive Learning Modules</h2>
+                <small>Learning made easy! 😍</small>
+                <p class="tl-explanation">Unlock a world of knowledge with our interactive e-learning platform—where
+                    learning meets engagement, making education fun, accessible, and personalized for all!</p>
+            </div>
+        </div>
+
+        <div class="container-tl right-tl">
+            <div class="txtbox-tl">
+                <img src="assets/game-console.png" class="tl-img">
+                <h2>Games</h2>
+                <small>Its time to Compete 🐰</small>
+                <p class="tl-explanation">Try your luck with the Spin-the-Wheel game! Unlock hidden surprises and test
+                    your knowledge. Discover new challenges and mysteries with each spin!
+                </p>
+            </div>
+        </div>
+
+        <div class="container-tl left-tl">
+            <div class="txtbox-tl">
+                <img src="assets/choose.png" class="tl-img">
+                <h2>Quizzes</h2>
+                <small>Coins, Hearts and Fun 🔥</small>
+                <p class="tl-explanation">Participate in engaging, AI-generated quizzes designed to test your
+                    understanding and learning. Earn coins for every correct answer and boost your score!
+                </p>
+            </div>
+        </div>
+
+        <div class="container-tl right-tl">
+            <div class="txtbox-tl">
+                <img src="assets/certificate.png" class="tl-img">
+                <h2>Badges and Certificates</h2>
+                <small> Rewards are always Good 🥳
+                </small>
+                <p class="tl-explanation">Accumulate enough coins through quizzes and games to earn prestigious Good
+                    Citizen Badges. Redeem them to claim your official Completion Certificates!
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <ul id="accordion">
+        <h1>Frequently Asked Questions (FAQs) </h1>
+        <li>
+            <label for="first">What courses are offered, and how are they structured?<span>+</span></label>
+            <input type="radio" name="accordion" id="first">
+            <div class="content">
+                <p class="content-txt">
+                    We offer courses on the Indian Judiciary, Legislature, and Executive systems, each broken down into
+                    easy-to-understand modules. These courses simplify key aspects of the Constitution and provide a
+                    clear overview of how each system functions
+                </p>
+            </div>
+
+        </li>
+
+        <li>
+            <label for="second">How do these courses simplify complex topics from the
+                Constitution?<span>+</span></label>
+            <input type="radio" name="accordion" id="second">
+            <div class="content">
+                <p class="content-txt">
+                    We use straightforward language and real-life examples to break down complex legal and governmental
+                    concepts. Each module is designed to make learning easier, focusing on essential elements that
+                    provide clarity without overwhelming the learner.
+
+                </p>
+            </div>
+        </li>
+
+        <li>
+            <label for="third">Who can benefit from these courses?<span>+</span></label>
+            <input type="radio" name="accordion" id="third">
+            <div class="content">
+                <p class="content-txt">
+                    Our courses are perfect for students, competitive exam aspirants, or anyone who wants to understand
+                    the workings of the Indian government in a simplified manner. Whether you're new to the subject or
+                    seeking to refresh your knowledge, these courses are designed for all learners.
+
+
+                </p>
+
+            </div>
+        </li>
+
+        <li>
+            <label for="fourth">Are these courses self-paced, and how long do they take to
+                complete?<span>+</span></label>
+            <input type="radio" name="accordion" id="fourth">
+            <div class="content">
+                <p class="content-txt">
+                    Yes, our courses are entirely self-paced, allowing you to learn at your convenience. Each course
+                    typically takes 4-6 hours to complete, depending on your learning speed and depth of engagement with
+                    the material.
+
+
+                </p>
+
+            </div>
+        </li>
+
+
+        <li>
+            <label for="fifth">Do you offer any certificates upon course completion?<span>+</span></label>
+            <input type="radio" name="accordion" id="fifth">
+            <div class="content">
+                <p class="content-txt">
+                    Yes, upon successful completion of each course, you will receive a certificate that recognizes your
+                    understanding of the subject. This can be a valuable addition to your academic or
+                    professional profile.
+                </p>
+
+            </div>
+        </li>
+
+
+    </ul>
+
+
+    <footer>
+        <div class="row">
+            <div class="col">
+                <h1 class="footer-logo">Samvidhan.com</h1>
+                <p>Unlock a world of knowledge with our interactive e-learning platform—where learning meets engagement,
+                    making education fun, accessible, and personalized for all!</p>
+            </div>
+
+            <div class="col">
+                <h3>Headquaters</h3>
+                <p>Cambridge</p>
+                <p>KR Puram, Bengaluru</p>
+                <p>Karnataka, 560016</p>
+                <p class="footer-email">chintu.23ise@cambridge.edu.in</p>
+                <p class="footer-email">kaif.23ise@cambridge.edu.in</p>
+            </div>
+
+            <div class="col">
+                <h3>Useful Links</h3>
+                <p><a href="#">Home</a></p>
+                <p><a href="#">Courses</a></p>
+                <p><a href="#">Community</a></p>
+                <p><a href="#">Social Media</a></p>
+            </div>
+
+            <div class="col">
+                <h3>News Letter</h3>
+                <form>
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit" class="nxt-btn-footer"><img src="assets/right-arrow.png"
+                            class="next-logo"></button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

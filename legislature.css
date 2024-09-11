@@ -1,0 +1,352 @@
+* {
+    text-decoration: none;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+
+body{
+    
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+
+}
+.navbar {
+    background: #FDDB3A;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 40px;
+    color: #41444B;
+}
+
+.nav-li{
+    list-style: none;
+    display:inline-block;
+}
+
+.nav-li a{
+    color: #41444B;
+    font-size: 25px;
+    margin-right: 40px;
+}
+
+button{
+    background-color: #41444B;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+}
+
+button a{
+    color: #FDDB3A;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+/* page-----------------------------  */
+body{
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    /* border: 2px solid red; */
+    margin: 50px;
+    margin-left: 200px;
+    width: 1100px;
+}
+
+.description{
+    margin: 5px;
+}
+
+.courseName{
+    font-size: 2.8rem;
+    /* font-weight: 100; */
+    padding-bottom: 9px;
+}
+
+.glimpse{
+    font-size: 1.3rem;
+    color: #606165;
+    font-weight: 500;
+}
+
+.data{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+}
+.dataLogo img{
+    height: 20px;
+    width: 20px;
+    /* border: 2px solid red; */
+    margin-left: 15px;
+}
+
+.data p{
+    margin-top: 4px;
+    color: #6a6d72;
+}
+
+/* instructor section  ***********************/
+.instructor{
+    display: flex;
+    margin-top: 10px;
+}
+
+.instructor img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.instructorName{
+    font-size: 1.6rem;
+    padding-top: 17px;
+    padding-left: 7px;
+}
+
+.name{
+    font-size: 1.6rem;
+    color: #5a5c5f;
+    padding-top: 17px;
+    padding-left: 5px;
+}
+
+/* about this course  */
+
+.aboutCourse{
+    /* padding-top: 10px; */
+    margin-top: 40px;
+    padding-left: 5px;
+}
+
+.about{
+    font-size: 1.9rem;
+    /* border: 2px solid red; */
+}
+
+.aboutLines{
+    margin-top: px;
+    padding-top: 1px;
+    font-size: 1.3rem;
+    color: #66676a;
+    font-weight: 500;
+}
+
+/* skills gain  ******************************************/
+
+.skills{
+    margin-left: 4px;
+}
+
+.skillHeading{
+    font-size: 1.9rem;
+}
+
+.skillBubble{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 780px;
+    justify-content: space-between;
+}
+
+.bubble{
+    padding-top: 14px;
+    padding-left: 20px;
+    font-size: 1.4rem;
+    /* border: 2px solid red; */
+    background-color: #FDDB3A;
+    height: 34px;
+    border-radius: 50px;
+    width: 225px;
+    cursor: pointer;
+}
+
+/* syllabus------------------------------------------------ */
+.syllHead{
+    font-size: 1.9rem;
+    margin-left: 10px;
+    margin-top: 60px;
+}
+
+#accordion{
+    margin: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 600px;
+}
+
+#accordion li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background: #52575D;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+#accordion li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #FDDB3A;
+}
+
+#accordion li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: #FDDB3A;
+}
+
+.content-txt{
+    color: white;
+}
+
+#accordion label + input[type="radio"]{
+    display: none;
+}
+
+#accordion .content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s;
+}
+
+#accordion label + input[type="radio"]:checked +.content{
+    max-height: 400px;
+
+}
+
+.btn-lnmr{
+    color: #52575D;
+    background: #FDDB3A;
+    font-weight: 600;
+    padding: 12px 55px;
+    margin: 10px;
+    border: 1px solid #52575D;
+    outline: none;
+    letter-spacing: 1px;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+    border-radius: 20px;
+
+    width: 280px;
+    height: 50px;
+}
+
+.btn-lnmr a{
+    color: #52575D;
+    
+}
+
+.btn-lnmr:hover{
+    background: white;
+    box-shadow: 5px 5px 10px #FDDB3A, -5px -5px 10px #FDDB3A;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* instructor detail ************************************/
+
+.instrDetail{
+    margin-left: 4px;
+}
+
+.instrHeading{
+    font-size: 1.9rem;
+}
+
+.instrCont{
+    display: flex;
+    /* border: 2px solid red; */
+    
+}
+
+.instrImg{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.imgSide{
+    /* border: 2px solid red; */
+    width: 450px;
+    height: 220px;
+    margin-left: 120px;
+}
+
+.imgSide h1{
+    font-size: 1.4rem;
+}
+
+em{
+    font-style: italic;
+    font-weight: 500;
+}
+
+.profession{
+    font-size: 1.2rem;
+    color: #6b6c6d;
+}
+
+.statsCont{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    margin-left: 2px;
+    width: 380px;
+}
+
+.statsLogo{
+    /* border: 2px solid red; */
+    width: 40px;
+    margin-top: 10px;
+}
+
+.statsLogo img{
+    height: 23px;
+    width: 23px;
+    margin-left: 7px;
+    margin-top: 1px;
+}
+
+.statsCont p{
+    border: 2px solid rgb(255, 255, 255);
+    width: 100px;
+    margin-right: 30px;
+}
+
+.instrInfo{
+    margin-top: 12px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #606165
+}
